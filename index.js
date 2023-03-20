@@ -8,8 +8,8 @@ app.use(cors({
     origin: '*',
 })); // 크로스에러 해결법으로 *모든 경로에서 접근허용.
 
-var client_id = '입력';
-var client_secret = '입력';
+var client_id = '_klrieF8VKQXm1e3Mff0';
+var client_secret = 'ZXRtJLbrCf';
 
 app.get('/search/shop', function (req, res) {
 
